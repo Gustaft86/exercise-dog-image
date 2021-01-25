@@ -1,10 +1,25 @@
 .App {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  width: 300px;
+}
+
+.elements img {
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
